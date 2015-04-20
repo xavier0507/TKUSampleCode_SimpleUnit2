@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">TKUSampleCode_SimpleUnit2</string>
+
+	<string name="action_a_original_button">Android原生按鈕</string>
+	<string name="action_b_send">送出</string>
+
+	<string name="text_b_result">Activity A的結果：%s。</string>
+	<string name="text_b_input">請在EditText輸入您需要的內容。</string>
+	<string name="text_no_result">無法找到相對應的結果</string>
+</resources>
