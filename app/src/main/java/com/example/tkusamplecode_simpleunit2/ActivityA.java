@@ -26,5 +26,15 @@ public class ActivityA extends Activity {
 				startActivity(intent);
 			}
 		});
+
+		final Button bClickableButton = (Button) this.findViewById(R.id.btn_a_clickable);
+		bClickableButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(ActivityA.this, ActivityB.class);
+				intent.putExtra(TEXT, bClickableButton.getText());
+				startActivity(intent);
+			}
+		});
 	}
 }

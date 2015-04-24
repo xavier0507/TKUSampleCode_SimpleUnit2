@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 			  android:layout_width="match_parent"
 			  android:layout_height="match_parent"
+			  android:background="@color/general_backgroud"
 			  android:orientation="vertical">
 
 	<Button
@@ -10,5 +11,13 @@
 		android:layout_height="wrap_content"
 		android:layout_gravity="center"
 		android:text="@string/action_a_original_button"/>
+
+	<Button
+		android:id="@+id/btn_a_clickable"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@drawable/custom_button_clickable"
+		android:text="@string/action_a_clickable_button"/>
 
 </LinearLayout>

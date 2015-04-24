@@ -2,6 +2,7 @@
 	<string name="app_name">TKUSampleCode_SimpleUnit2</string>
 
 	<string name="action_a_original_button">Android原生按鈕</string>
+	<string name="action_a_clickable_button">Clickable按鈕</string>
 	<string name="action_b_send">送出</string>
 
 	<string name="text_b_result">Activity A的結果：%s。</string>
